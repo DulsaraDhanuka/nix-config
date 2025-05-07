@@ -4,7 +4,7 @@
   environment.systemPackages = with pkgs; [
     dex
     xss-lock
-    nm-applet
+    networkmanagerapplet
     i3-resurrect
   ];
 
