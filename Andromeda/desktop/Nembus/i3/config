@@ -200,5 +200,4 @@ bindsym $mod+r mode "resize"
 exec --no-startup-id polybar
 exec --no-startup-id picom --config ~/.config/picom/config  -b
 exec --no-startup-id xborders --config ~/.config/xborders/config
-exec --no-startup-id feh --bg-scale ~/.config/wallpapers/1.jpg
-
+bindsym $mod+Shift+m exec --no-startup-id ~/.config/polybar/scripts/toggle-monitor.setup.sh
